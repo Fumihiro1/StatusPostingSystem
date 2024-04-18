@@ -1,0 +1,6 @@
+<?php
+$host = ""; // your MySQL server host
+$user = ""; // your user name
+$pswd = ""; // your password
+$dbnm = ""; // your database
+?>
