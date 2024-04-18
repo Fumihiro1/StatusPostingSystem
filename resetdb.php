@@ -9,7 +9,7 @@
     <h1>Status Posting System</h1>
 <?php
     // Include database connection settings
-    require_once('../../files/settings.php');
+    require_once('settings.php');
 
     // Establish database connection
     $conn = mysqli_connect($host, $user, $pswd, $dbnm);
