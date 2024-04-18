@@ -1,0 +1,72 @@
+.container {
+    text-align: center;
+    margin: 200 auto;
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+    width: calc(35% - 20px); 
+    margin: 150px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: powderblue;
+    font-family: "Arial", sans-serif;
+}
+
+.submit-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+input[type=text] {
+  border: 2px solid grey;
+  border-radius: 6px; 
+  margin-bottom: 
+  font-size: 15px;
+  height: 30px;
+}
+
+input::placeholder {
+  font-size: 15px; /* Set the font size of the placeholder text */
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  padding-left: 20px; 
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px; 
+  list-style: none;
+}

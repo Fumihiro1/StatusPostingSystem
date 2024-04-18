@@ -1,0 +1,17 @@
+SHOW TABLES LIKE 'status_table'
+
+CREATE TABLE status_table (
+    stcode VARCHAR(10) NOT NULL UNIQUE,
+    st TEXT NOT NULL,
+    share VARCHAR(20) NOT NULL,
+    date DATE NOT NULL,
+    permissions TEXT
+)
+
+SELECT * FROM status_table WHERE stcode = '$stcode'
+
+INSERT INTO status_table (stcode, st, share, date, permissions) 
+VALUES ('$stcode', '$st', '$share', STR_TO_DATE('$date', '%d/%m/%Y'), '$permissions')
+
+SELECT * FROM status_table WHERE st LIKE '%$searchString%'
+
